@@ -20,8 +20,9 @@ git clone https://github.com/11ty/eleventy-base-blog.git .
 ```
 
 _Optional:_ Review `eleventy.config.js` and `_data/metadata.js` to configure the site’s options and data.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/abe8db3d-be8b-4718-a2fc-9e45c22b8dfb/deploy-status)](https://app.netlify.com/sites/iridescent-bonbon-2d8b82/deploys)
 
-3. Install dependencies
+
 
 ```
 npm install
