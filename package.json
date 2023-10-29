@@ -12,12 +12,12 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/11ty/eleventy-base-blog.git"
+		"url": "https://github.com/azmatali470/new-blog-post.git"
 	},
 	"author": {
-		"name": "Zach Leatherman",
-		"email": "zachleatherman@gmail.com",
-		"url": "https://zachleat.com/"
+		"name": "Azmat Ali Cheema",
+		"email": "azmatalicheema@outlook.com",
+		"url": "https://github.com/azmatali470/new-blog-post.git"
 	},
 	"license": "MIT",
 	"engines": {
