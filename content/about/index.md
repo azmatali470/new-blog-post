@@ -7,67 +7,30 @@ eleventyNavigation:
 # About Me
 
 I am a person that writes stuff.
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
-<header>
-  <ul>
-    <li class="current menu0">HOME</li>
-    <li class="menu1">ABOUT</li>
-    <li class="menu2">PROJECTS</li>
-    <li class="menu3">CONTACT</li>
-  </ul>
-</header>
-
-<div id="slides">
-  <nav>
-    <i class="fa fa-chevron-circle-down" id="next"></i>
-  </nav>
-
-  <div class="slide slide0">
-
-    <div id="title">
-      <h2>Hello, I am</h2>
-      <h1>Leon</h1>
-      <h2>And I'm a Web Developer</h2>
-    </div>
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">First Name</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
   </div>
-  
-  <div class="slide slide1">
-    <h1>About</h1>
-
-	 			
+  <div class="form-group">
+    <label for="exampleInputEmail1">Surname</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
   </div>
-	 		
-  <div class="slide slide2">
-	 	<h1>Projects</h1>
-		 <h2>A few things I made:</h2>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Email</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
   </div>
-	 		
-  <div class="slide slide3">
-	 	<h1>Contact</h1>
- 		<h2>You can find me on the internet here:</h2>
-				
-    <ul>
-					<a href="mailto:leongrasmeijer@gmail.com"><li>
-	 				<i class="fa fa-envelope"></i> Mail
-	 			</li></a>
-	 			<a href="https://codepen.io/LeonGr/"><li>
-	 				<i class="fa fa-codepen"></i> Codepen
-	 			</li></a>
-	 			<a href="https://github.com/LeonGr"><li>
-	 				<i class="fa fa-github"></i> Github
-	 			</li></a>
-		</ul>
-
-   </div>
-</div>
-
-<footer>
-  <p class="copy">Leon Grasmeijer &copy; 2014</p>
-
-	<div id="links">
-    <a href="mailto:leongrasmeijer@gmail.com"><i class="fa fa-envelope"></i></a>
-    <a href="https://codepen.io/LeonGr/"><i class="fa fa-codepen"></i></a>
-    <a href="https://github.com/LeonGr"><i class="fa fa-github"></i></a>
-	</div>
-</footer>
+   <div class="form-group">
+    <label for="exampleFormControlSelect2">Message</label>
+  </div>
+  <div class="form-group">
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Accept the terms and conditions</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</form>
